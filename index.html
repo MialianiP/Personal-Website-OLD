@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Bootstrap's CSS and JS -->
+    <title>Personal Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">   <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">   <!-- Bootstrap Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>   <!-- JS -->
+    <link rel="stylesheet" href="styles.css">   <!-- links to styles.css file -->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Navbar -->
+        <section class="row">
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <ul class="nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                </ul> 
+            </div>
+            </nav>
+        </section>
+        <!-- About Section -->
+        <section class="row white-text">
+            <div id="about">
+                <div class="col-sm-6">
+                    <div class="container">
+                        <h1 id="intro"></h1>
+                        <p class="summary">a front-end web developer. If I'm not programming, I'm either working on my prop or playing video games with friends.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <!--<img src="" alt="Profile Picture" width="500" height="600">-->
+                    <i class="bi bi-person-circle fadeIn"></i>
+                    <ul class="no-bulletpoints">
+                        <li class="fadeUp" style="padding-bottom: 20px;">
+                            <h2>Skills</h2>
+                            <div class="underline1"></div>
+                        </li>
+                        <li class="fadeUp">HTML</li>
+                        <li class="fadeUp">CSS</li>
+                        <li class="fadeUp">JavaScript</li>
+                        <li class="fadeUp">Bootstrap</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Project Section -->
+        <section class="row">
+            <div id="projects">
+                <div class="scroll-animation">
+                    <h1 class="white-text">Web Development Projects</h1>
+                    <div class="underline2"></div>
+                </div>
+                <div id="project-cards">
+                    <div class="row justify-content-center">
+                    <div class="col-sm-4">
+                        <div class="card scroll-animation">
+                            <img class="card-img-top" src="p1.PNG" alt="Project image">
+                            <div class="card-body">
+                                <h5 class="card-title">Basic Calulator</h5>
+                                <p class="card-text">A simple calculator that can solve basic math operations</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card scroll-animation">
+                            <img class="card-img-top" src="p2.PNG" alt="Project image">
+                            <div class="card-body">
+                                <h5 class="card-title">Instagram Homepage Copycat</h5>
+                                <p class="card-text">A recreation of Instagram's homepage, using Bootstrap</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card scroll-animation">
+                            <img class="card-img-top" src="p3.PNG" alt="Project image">
+                            <div class="card-body">
+                                <h5 class="card-title">School Wish List</h5>
+                                <p class="card-text">User inputs values and page updates with user's input</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="row white-text">
+            <div id="contact">
+                <div class="scroll-animation">
+                    <h1>Contact Me</h1>
+                    <div class="underline3"></div>
+                    <i class="bi bi-envelope scroll-animation">  [Email Here]</i>
+                </div>
+                <h3 style="padding-top: 150px;" class="scroll-animation">Thanks for visiting my page!</h3>
+            </div>
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>   <!-- links to scripts.js file -->
+
+</body>
+
+</html>
